@@ -342,3 +342,9 @@ let btnRestart = document.querySelector("#btnRestart");
 btnRestart.addEventListener("click", function(){
     location.reload();
 });
+
+let restartBtnModal = document.querySelector("#restartBtnModal");
+
+restartBtnModal.addEventListener("click", function(){
+    location.reload();
+});
