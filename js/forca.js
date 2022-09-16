@@ -72,7 +72,7 @@ const palavras = [
         categoria: "DESENHOS ANIMADOS",
     },
     palavra019 = {
-        nome: "GRAVITY FALLS",
+        nome: "THUNDER CATS",
         categoria: "DESENHOS ANIMADOS",
     },
     palavra020 = {
