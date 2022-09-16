@@ -60,7 +60,7 @@ const palavras = [
         categoria: "DESENHOS ANIMADOS",
     },
     palavra016 = {
-        nome: "O LABORATORIO DE DEXTER",
+        nome: "DEXTER",
         categoria: "DESENHOS ANIMADOS",
     },
     palavra017 = {
@@ -72,12 +72,56 @@ const palavras = [
         categoria: "DESENHOS ANIMADOS",
     },
     palavra019 = {
-        nome: "GRAVITY FALLS",
+        nome: "TOM E JERRY",
         categoria: "DESENHOS ANIMADOS",
     },
     palavra020 = {
         nome: "HE MAN",
         categoria: "DESENHOS ANIMADOS",
+    },
+    palavra021 = {
+        nome: "BANANA",
+        categoria: "COMIDA",
+    },
+    palavra022 = {
+        nome: "FEIJAO",
+        categoria: "COMIDA",
+    },
+    palavra023 = {
+        nome: "MACARRAO",
+        categoria: "COMIDA",
+    },
+    palavra024 = {
+        nome: "ABACAXI",
+        categoria: "COMIDA",
+    },
+    palavra025 = {
+        nome: "UVA",
+        categoria: "COMIDA",
+    },
+    palavra026 = {
+        nome: "LARANJA",
+        categoria: "COMIDA",
+    },
+    palavra027 = {
+        nome: "ARROZ",
+        categoria: "COMIDA",
+    },
+    palavra028 = {
+        nome: "CARNE",
+        categoria: "COMIDA",
+    },
+    palavra028 = {
+        nome: "FRANGO",
+        categoria: "COMIDA",
+    },
+    palavra029 = {
+        nome: "PEIXE",
+        categoria: "COMIDA",
+    },
+    palavra030 = {
+        nome: "SUSHI",
+        categoria: "COMIDA",
     },
 
 ]
