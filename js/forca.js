@@ -79,6 +79,14 @@ const palavras = [
         nome: "HE MAN",
         categoria: "DESENHOS ANIMADOS",
     },
+    palavra021 = {
+        nome: "ARROZ",
+        categoria: "COMIDA",
+    },
+    palavra022 = {
+        nome: "FEIJAO",
+        categoria: "COMIDA",
+    },
 
 ]
 
