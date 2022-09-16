@@ -60,7 +60,7 @@ const palavras = [
         categoria: "DESENHOS ANIMADOS",
     },
     palavra016 = {
-        nome: "O LABORATORIO DE DEXTER",
+        nome: "DEXTER",
         categoria: "DESENHOS ANIMADOS",
     },
     palavra017 = {
