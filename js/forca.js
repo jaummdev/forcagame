@@ -1,18 +1,18 @@
 const palavras = [
     palavra001 = {
-        nome: "IRLANDA",
+        nome: "RUSSIA",
         categoria: "PAISES",
     },
     palavra002 = {
-        nome: "ARGENTINA",
+        nome: "PERU",
         categoria: "PAISES",
     },
     palavra003 = {
-        nome: "ALEMANHA",
+        nome: "FRANÇA",
         categoria: "PAISES",
     },
     palavra004 = {
-        nome: "CANADA",
+        nome: "ESTADOS UNIDOS",
         categoria: "PAISES",
     },
     palavra005 = {
@@ -24,7 +24,7 @@ const palavras = [
         categoria: "PAISES",
     },
     palavra007 = {
-        nome: "COREIA DO SUL",
+        nome: "EGITO",
         categoria: "PAISES",
     },
     palavra008 = {
@@ -87,7 +87,102 @@ const palavras = [
         nome: "FEIJAO",
         categoria: "COMIDA",
     },
-
+    palavra023 = {
+        nome: "PRETZEL",
+        categoria: "COMIDA",
+    },
+    palavra024 = {
+        nome: "MACARRONADA",
+        categoria: "COMIDA",
+    },
+    palavra025 = {
+        nome: "LAZANHA",
+        categoria: "COMIDA",
+    },
+    palavra026 = {
+        nome: "COXINHA",
+        categoria: "COMIDA",
+    },
+    palavra027 = {
+        nome: "SORVETE",
+        categoria: "COMIDA",
+    },
+    palavra028 = {
+        nome: "PASTEL",
+        categoria: "COMIDA",
+    },
+    palavra029 = {
+        nome: "SALADA",
+        categoria: "COMIDA",
+    },
+    palavra030 = {
+        nome: "BOLO",
+        categoria: "COMIDA",
+    },
+    palavra031 = {
+        nome: "SHORT",
+        categoria: "ROUPA",
+    },
+    palavra031 = {
+        nome: "CAMISETA",
+        categoria: "ROUPA",
+    },
+    palavra032 = {
+        nome: "VESTIDO",
+        categoria: "ROUPA",
+    },
+    palavra033 = {
+        nome: "CASACO",
+        categoria: "ROUPA",
+    },
+    palavra034 = {
+        nome: "SAIA",
+        categoria: "ROUPA",
+    },
+    palavra035 = {
+        nome: "CUECA",
+        categoria: "ROUPA",
+    },
+    palavra036 = {
+        nome: "CALCINHA",
+        categoria: "ROUPA",
+    },
+    palavra037 = {
+        nome: "CALÇA",
+        categoria: "ROUPA",
+    },
+    palavra038 = {
+        nome: "MEIA",
+        categoria: "ROUPA",
+    },
+    palavra039 = {
+        nome: "CHAPEU",
+        categoria: "ROUPA",
+    },
+    palavra040 = {
+        nome: "TOUCA",
+        categoria: "ROUPA",
+    },
+    palavra041 = {
+        nome: "NOVA ZELANDIA",
+        categoria: "PAISES",
+    },
+    palavra042 = {
+        nome: "ITALIA",
+        categoria: "PAISES",
+    },
+    palavra043 = {
+        nome: "PORTUGAL",
+        categoria: "PAISES",
+    },
+    palavra044 = {
+        nome: "JAPAO",
+        categoria: "PAISES",
+    },
+    palavra045 = {
+        nome: "MEXICO",
+        categoria: "PAISES",
+    },
 ]
 
 let listaDinamica = [];
