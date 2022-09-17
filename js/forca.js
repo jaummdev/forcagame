@@ -8,7 +8,7 @@ const palavras = [
         categoria: "PAISES",
     },
     palavra003 = {
-        nome: "FRANÇA",
+        nome: "FRANCA",
         categoria: "PAISES",
     },
     palavra004 = {
@@ -148,7 +148,7 @@ const palavras = [
         categoria: "ROUPA",
     },
     palavra037 = {
-        nome: "CALÇA",
+        nome: "CALCA",
         categoria: "ROUPA",
     },
     palavra038 = {
