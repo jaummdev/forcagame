@@ -91,10 +91,28 @@ body{
     font-size: 1.2em;
     font-weight: 600;
 }
-@media (min-width: 321px){
+@media (width: 320px){
+    .teclas{
+        margin-right: 14px;
+    }
     .teclas button{
-        width: 25px;
-        height: 25px;
+        width: 24px;
+        height: 24px;
+        margin: 0;
+    }
+    #categoria{
+        font-size: 1.3em;
+    }
+}
+@media (min-width: 321px){
+    .teclas{
+        margin-right: 5px;
+    }
+    .teclas button{
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        margin-bottom: 2px;
     }
     #categoria{
         font-size: 1.3em;
@@ -102,8 +120,9 @@ body{
 }
 @media (min-width: 376px){
     .teclas button{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
+        margin-bottom: 2px;
     }
     #palavra-secreta{
         font-size: 1.3em;
@@ -118,8 +137,8 @@ body{
 }
 @media (min-width: 426px){
     .teclas button{
-        width: 36px;
-        height: 36px;
+        width: 40px;
+        height: 40px;
     }
     #palavra-secreta{
         font-size: 1.5em;
@@ -134,8 +153,8 @@ body{
 }
 @media (min-width: 769px){
     .teclas button{
-        width: 68px;
-        height: 68px;
+        width: 60px;
+        height: 60px;
         font-size: 1.7em;
     }
     #palavra-secreta{
@@ -146,5 +165,21 @@ body{
     }
     #categoria{
         font-size: 2em;
+    }
+}
+@media (min-width: 1023px){
+    .teclas button{
+        width: 50px;
+        height: 50px;
+        font-size: 1.7em;
+    }
+    #palavra-secreta{
+        font-size: 2.5em;
+    }
+    .letras{
+        width: 30px;
+    }
+    #categoria{
+        font-size: 1.6em;
     }
 }

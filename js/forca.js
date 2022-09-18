@@ -185,6 +185,7 @@ const palavras = [
     },
 ]
 
+
 let listaDinamica = [];
 let tentativas = 6;
 let palavraSecretaCategoria;
