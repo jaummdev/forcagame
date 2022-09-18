@@ -191,6 +191,14 @@ let tentativas = 6;
 let palavraSecretaCategoria;
 let palavraSecretaSorteada;
 
+function voltarAoHub(){
+    link = document.createElement("a")
+    link.href = "https://joaosenadev.github.io/hub/"
+    title = "Voltar Ao Hub!"
+    link.target = ""
+    link.click()
+}
+
 
 criarPalavraSecreta();
 

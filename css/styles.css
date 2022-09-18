@@ -12,6 +12,29 @@ body{
     background-color: rgb(0, 195, 255);
     font-family: 'Roboto', sans-serif;
 }
+.backToHub{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    left: 0;
+    top: -10px;
+    margin: 25px;
+    background-color: #7431f8;
+    box-shadow: 0px 0 5px #1e005b5e;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.backToHub:hover{
+    box-shadow: 0px 0 25px #1e005b5e;
+    transition: 0.3s;
+    background-color: #681dff;
+    cursor: pointer;
+    transform: scale(0.8);
+}
 .container{
     display: flex;
     justify-content: center;
@@ -36,7 +59,7 @@ body{
 .letras{
     width: 16px;
     text-align: center;
-    border-bottom: 2px solid #8b008b;
+    border-bottom: 2px solid #5500ff;
     color: white;
     padding: 2px;
     margin-left: 2px;
@@ -66,7 +89,7 @@ body{
     box-shadow: 2px 2px 1px #54005444;
     border-radius: 5px;
     border: 1px solid dimgray;
-    color: #8b008b;
+    color: #7431f8;
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
 }
@@ -78,20 +101,25 @@ body{
     transition: 0.07s;
 }
 #btnRestart{
-    background-color: #8b008b;
+    background-color: #7431f8;
     color: white;
 }
 #btnRestart:hover{
-    background-color: #540054;
+    background-color: #3900ac;
     color: white;
 }
 #categoria{
     margin-top: 30px;
-    color: #8b008b;
+    color: #7431f8;
     font-size: 1.2em;
     font-weight: 600;
 }
 @media (width: 320px){
+    .backToHub{
+        transform: scale(0.4);
+        margin: 2px;
+        left: -10px;
+    }
     .teclas{
         margin-right: 14px;
     }
@@ -105,6 +133,11 @@ body{
     }
 }
 @media (min-width: 321px){
+    .backToHub{
+        transform: scale(0.45);
+        margin: 2px;
+        left: -10px;
+    }
     .teclas{
         margin-right: 5px;
     }
@@ -135,7 +168,10 @@ body{
     }
     
 }
-@media (min-width: 426px){
+@media (min-width: 425px){
+    .backToHub{
+        transform: scale(0.5);
+    }
     .teclas button{
         width: 40px;
         height: 40px;
@@ -151,7 +187,11 @@ body{
     }
     
 }
-@media (min-width: 769px){
+@media (min-width: 768px){
+    .backToHub{
+        transform: scale(0.7);
+        margin: 20px;
+    }
     .teclas button{
         width: 60px;
         height: 60px;
@@ -169,9 +209,9 @@ body{
 }
 @media (min-width: 1023px){
     .teclas button{
-        width: 50px;
-        height: 50px;
-        font-size: 1.7em;
+        width: 70px;
+        height: 70px;
+        font-size: 2em;
     }
     #palavra-secreta{
         font-size: 2.5em;
@@ -180,6 +220,6 @@ body{
         width: 30px;
     }
     #categoria{
-        font-size: 1.6em;
+        font-size: 2em;
     }
 }
