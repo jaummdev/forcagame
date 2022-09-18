@@ -9,7 +9,7 @@ body{
     width: 100vw;
     height: 90vh;
     margin-top: 10px;
-    background-color: rgb(0, 195, 255);
+    background-color: #ffa200;
     font-family: 'Roboto', sans-serif;
 }
 .backToHub{
@@ -27,6 +27,13 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 30px;
+}
+.backToHubText{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+
+    color: #7431f8;
 }
 .backToHub:hover{
     box-shadow: 0px 0 25px #1e005b5e;
@@ -46,6 +53,7 @@ body{
     background-image: url(../img/forca.png);
     width: 234px;
     height: 272px;
+    margin-top: 20px;
     background-repeat: no-repeat;
 }
 #palavra-secreta{

@@ -263,7 +263,7 @@ function mudarStyleLetra(tecla, condicao){ //muda o estilo do botão quando prec
         document.getElementById(tecla).style.color = "#ffffff";
     }
     else{
-        document.getElementById(tecla).style.background = "#008000";
+        document.getElementById(tecla).style.background = "#7431f8";
         document.getElementById(tecla).style.color = "#ffffff";
     }
 
