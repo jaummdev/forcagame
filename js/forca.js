@@ -1,42 +1,43 @@
 const palavras = [
+    //DESENHOS ANIMADOS
     palavra001 = {
-        nome: "RUSSIA",
-        categoria: "PAISES",
+        nome: "PERNALONGA",
+        categoria: "DESENHOS ANIMADOS",
     },
     palavra002 = {
-        nome: "PERU",
-        categoria: "PAISES",
+        nome: "TARTARUGAS NINJAS",
+        categoria: "DESENHOS ANIMADOS",
     },
     palavra003 = {
-        nome: "FRANCA",
-        categoria: "PAISES",
+        nome: "BATMAN",
+        categoria: "DESENHOS ANIMADOS",
     },
     palavra004 = {
-        nome: "ESTADOS UNIDOS",
-        categoria: "PAISES",
+        nome: "POKEMON",
+        categoria: "DESENHOS ANIMADOS",
     },
     palavra005 = {
-        nome: "BRASIL",
-        categoria: "PAISES",
+        nome: "DRAGON BALL",
+        categoria: "DESENHOS ANIMADOS",
     },
     palavra006 = {
-        nome: "COSTA RICA",
-        categoria: "PAISES",
+        nome: "GARFIELD",
+        categoria: "DESENHOS ANIMADOS",
     },
     palavra007 = {
-        nome: "EGITO",
-        categoria: "PAISES",
+        nome: "CAPITAO CAVERNA",
+        categoria: "DESENHOS ANIMADOS",
     },
     palavra008 = {
-        nome: "COREIA DO NORTE",
-        categoria: "PAISES",
+        nome: "NARUTO",
+        categoria: "DESENHOS ANIMADOS",
     },
     palavra009 = {
         nome: "OS SIMPSONS",
         categoria: "DESENHOS ANIMADOS",
     },
     palavra010 = {
-        nome: "LOONEY TUNES",
+        nome: "CORAGEM",
         categoria: "DESENHOS ANIMADOS",
     },
     palavra011 = {
@@ -60,7 +61,7 @@ const palavras = [
         categoria: "DESENHOS ANIMADOS",
     },
     palavra016 = {
-        nome: "DEXTER",
+        nome: "O MASKARA",
         categoria: "DESENHOS ANIMADOS",
     },
     palavra017 = {
@@ -68,7 +69,7 @@ const palavras = [
         categoria: "DESENHOS ANIMADOS",
     },
     palavra018 = {
-        nome: "GRAVITY FALLS",
+        nome: "RIQUINHO",
         categoria: "DESENHOS ANIMADOS",
     },
     palavra019 = {
@@ -76,15 +77,17 @@ const palavras = [
         categoria: "DESENHOS ANIMADOS",
     },
     palavra020 = {
-        nome: "HE MAN",
+        nome: "GASPARZINHO",
         categoria: "DESENHOS ANIMADOS",
     },
+
+    //COMIDA
     palavra021 = {
-        nome: "ARROZ",
+        nome: "TAPIOCA",
         categoria: "COMIDA",
     },
     palavra022 = {
-        nome: "FEIJAO",
+        nome: "BRIGADEIRO",
         categoria: "COMIDA",
     },
     palavra023 = {
@@ -120,67 +123,215 @@ const palavras = [
         categoria: "COMIDA",
     },
     palavra031 = {
-        nome: "SHORT",
-        categoria: "ROUPA",
+        nome: "BISCOITO",
+        categoria: "COMIDA",
     },
     palavra031 = {
-        nome: "CAMISETA",
-        categoria: "ROUPA",
+        nome: "AMENDOIM",
+        categoria: "COMIDA",
     },
     palavra032 = {
-        nome: "VESTIDO",
-        categoria: "ROUPA",
+        nome: "BACON",
+        categoria: "COMIDA",
     },
     palavra033 = {
-        nome: "CASACO",
-        categoria: "ROUPA",
+        nome: "BERINJELA",
+        categoria: "COMIDA",
     },
     palavra034 = {
-        nome: "SAIA",
-        categoria: "ROUPA",
+        nome: "BROWNIE",
+        categoria: "COMIDA",
     },
     palavra035 = {
-        nome: "CUECA",
-        categoria: "ROUPA",
+        nome: "BURRITO",
+        categoria: "COMIDA",
     },
     palavra036 = {
-        nome: "CALCINHA",
-        categoria: "ROUPA",
+        nome: "BIFE",
+        categoria: "COMIDA",
     },
     palavra037 = {
-        nome: "CALCA",
-        categoria: "ROUPA",
+        nome: "COCADA",
+        categoria: "COMIDA",
     },
     palavra038 = {
-        nome: "MEIA",
-        categoria: "ROUPA",
+        nome: "SALGADINHO",
+        categoria: "COMIDA",
     },
     palavra039 = {
-        nome: "CHAPEU",
-        categoria: "ROUPA",
+        nome: "CENOURA",
+        categoria: "COMIDA",
     },
     palavra040 = {
-        nome: "TOUCA",
-        categoria: "ROUPA",
+        nome: "CHURROS",
+        categoria: "COMIDA",
     },
+    
+    //ROUPA
     palavra041 = {
+        nome: "SALGADEIRO",
+        categoria: "PROFISSÃO",
+    },
+    palavra042 = {
+        nome: "ESTILISTA",
+        categoria: "PROFISSÃO",
+    },
+    palavra043 = {
+        nome: "PRODUTOR",
+        categoria: "PROFISSÃO",
+    },
+    palavra044 = {
+        nome: "CANTOR",
+        categoria: "PROFISSÃO",
+    },
+    palavra045 = {
+        nome: "ENGENHEIRO",
+        categoria: "PROFISSÃO",
+    },
+    palavra046 = {
+        nome: "DESIGNER",
+        categoria: "PROFISSÃO",
+    },
+    palavra047 = {
+        nome: "PROGRAMADOR",
+        categoria: "PROFISSÃO",
+    },
+    palavra048 = {
+        nome: "CIENTISTA",
+        categoria: "PROFISSÃO",
+    },
+    palavra049 = {
+        nome: "BIOLOGO",
+        categoria: "PROFISSÃO",
+    },
+    palavra050 = {
+        nome: "RECEPCIONISTA",
+        categoria: "PROFISSÃO",
+    },
+    palavra051 = {
+        nome: "SECRETARIO",
+        categoria: "PROFISSÃO",
+    },
+    palavra052 = {
+        nome: "ENFERMEIRO",
+        categoria: "PROFISSÃO",
+    },
+    palavra053 = {
+        nome: "CARPINTEIRO",
+        categoria: "PROFISSÃO",
+    },
+    palavra054 = {
+        nome: "MECANICO",
+        categoria: "PROFISSÃO",
+    },
+    palavra055 = {
+        nome: "PADEIRO",
+        categoria: "PROFISSÃO",
+    },
+    palavra056 = {
+        nome: "PIZZAIOLO",
+        categoria: "PROFISSÃO",
+    },
+    palavra057 = {
+        nome: "APICULTOR",
+        categoria: "PROFISSÃO",
+    },
+    palavra058 = {
+        nome: "JUIZ",
+        categoria: "PROFISSÃO",
+    },
+    palavra059 = {
+        nome: "ATOR",
+        categoria: "PROFISSÃO",
+    },
+    palavra060 = {
+        nome: "MEDICO",
+        categoria: "PROFISSÃO",
+    },
+
+    //PAISES
+    palavra061 = {
+        nome: "ANGOLA",
+        categoria: "PAISES",
+    },
+    palavra062 = {
+        nome: "RUSSIA",
+        categoria: "PAISES",
+    },
+    palavra063 = {
+        nome: "POLONIA",
+        categoria: "PAISES",
+    },
+    palavra063 = {
+        nome: "FRANCA",
+        categoria: "PAISES",
+    },
+    palavra064 = {
+        nome: "ESTADOS UNIDOS",
+        categoria: "PAISES",
+    },
+    palavra065 = {
+        nome: "BRASIL",
+        categoria: "PAISES",
+    },
+    palavra066 = {
+        nome: "COSTA RICA",
+        categoria: "PAISES",
+    },
+    palavra067 = {
+        nome: "EGITO",
+        categoria: "PAISES",
+    },
+    palavra068 = {
+        nome: "INDIA",
+        categoria: "PAISES",
+    },
+    palavra069 = {
         nome: "NOVA ZELANDIA",
         categoria: "PAISES",
     },
-    palavra042 = {
+    palavra070 = {
         nome: "ITALIA",
         categoria: "PAISES",
     },
-    palavra043 = {
+    palavra071 = {
         nome: "PORTUGAL",
         categoria: "PAISES",
     },
-    palavra044 = {
+    palavra072 = {
         nome: "JAPAO",
         categoria: "PAISES",
     },
-    palavra045 = {
+    palavra073 = {
         nome: "MEXICO",
+        categoria: "PAISES",
+    },
+    palavra074 = {
+        nome: "AUSTRALIA",
+        categoria: "PAISES",
+    },
+    palavra075 = {
+        nome: "BELGICA",
+        categoria: "PAISES",
+    },
+    palavra076 = {
+        nome: "BOLIVIA",
+        categoria: "PAISES",
+    },
+    palavra077 = {
+        nome: "CAMAROES",
+        categoria: "PAISES",
+    },
+    palavra078 = {
+        nome: "CANADA",
+        categoria: "PAISES",
+    },
+    palavra079 = {
+        nome: "CHILE",
+        categoria: "PAISES",
+    },
+    palavra080 = {
+        nome: "ESPANHA",
         categoria: "PAISES",
     },
 ]
