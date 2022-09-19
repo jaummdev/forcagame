@@ -160,8 +160,8 @@ body{
 }
 @media (min-width: 376px){
     .teclas button{
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         margin-bottom: 2px;
     }
     #palavra-secreta{
@@ -180,8 +180,8 @@ body{
         transform: scale(0.5);
     }
     .teclas button{
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
     #palavra-secreta{
         font-size: 1.5em;
