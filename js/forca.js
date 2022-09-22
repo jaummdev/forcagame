@@ -343,7 +343,7 @@ let palavraSecretaSorteada;
 
 function voltarAoHub(){
     link = document.createElement("a")
-    link.href = "https://joaosenadev.github.io/hub/"
+    link.href = "https://joaosenadev.github.io"
     title = "Voltar Ao Hub!"
     link.target = ""
     link.click()
