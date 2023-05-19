@@ -33,10 +33,10 @@ body{
     font-size: 25px;
     font-weight: 500;
     color: #7431f8;
+    transition: 0.3s;
 }
 .backToHub:hover{
     box-shadow: 0px 0 25px #1e005b5e;
-    transition: 0.3s;
     background-color: #681dff;
     cursor: pointer;
     transform: scale(0.5);
@@ -99,13 +99,13 @@ body{
     color: #7431f8;
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
+    transition: 0.1s;
 }
 .teclas button:disabled{
     cursor: not-allowed;
 }
 .teclas button:hover{
     transform: scale(1.3);
-    transition: 0.07s;
 }
 #btnRestart{
     background-color: #7431f8;
